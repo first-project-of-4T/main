@@ -1,0 +1,8 @@
+포크해서 나온 내 저장소를 클론한 로컬 저장소에 만든 txt 파일
+=>
+fork앱에서 내 저장소 브랜치에 보면 Loacl Changes (1)표시됨
+=>
+Unstaged에 있는 txt파일 Staged로 옮겨줌
+=>
+아래 Commit subject에 제목, Description에 변경사항 작성 후 Commit
+=>
