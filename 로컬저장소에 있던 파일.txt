@@ -14,3 +14,5 @@ Pull requests > New pull request로 가면
 선택 후 리퀘스트 내용 작성 후 리퀘스트 보내기
 =>
 어드민이 확인 후 원본 저장소에 덮어짐
+
+
