@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'home.dart';
+import 'view/second/second_image_page.dart';
+import 'view/second/second_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
