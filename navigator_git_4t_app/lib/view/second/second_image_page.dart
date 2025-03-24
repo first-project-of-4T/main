@@ -8,6 +8,9 @@ class SecondImagePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Second Image Page'),
+        backgroundColor: Colors.amber,
+        foregroundColor: Colors.black,
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
@@ -15,16 +18,19 @@ class SecondImagePage extends StatelessWidget {
           children: [
             CircleAvatar(
               backgroundImage: AssetImage(
-                'images/smile.png',
+                'images/1000042831.jpg',
                 ),
               radius: 60,
             ),
+            Text('Age : 38'),
+            Text('전공 : 자연과학'),
+            Text('거주지 : 수원'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
                 Navigator.pop(context);
               },
-              child: Text('Go to the Home'),
+              child: Text('Main Screen'),
             ),
           ],
         ),
