@@ -8,7 +8,11 @@ class SecondPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('인사말'),
+        title: Text('인사말',
+          style: TextStyle(
+            fontWeight: FontWeight.bold
+          ),
+        ),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.black,
         centerTitle: true,
