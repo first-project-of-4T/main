@@ -131,6 +131,10 @@ class SecondImagePage extends StatelessWidget {
                 Text("  Dart"),
               ],
             ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/'), 
+              child: Text('Main screen')
+            ),
           ],
         )
       )
