@@ -1,0 +1,28 @@
+import 'package:flutter/material.dart';
+
+class FirstPage extends StatelessWidget {
+  const FirstPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('인사말'),
+      ),
+      body: Center(
+        child: Column(
+          children: [Column(
+            children: [
+              Text('안녕하세요, 4팀의 첫번째 프로젝트 조장을 맡게 된 이학현입니다. \n 자기소개에서 제 사랑스러운 강아지 쿵이를 소개해 드리겠습니다.'),
+              ElevatedButton(
+                onPressed: () => Navigator.pushNamed(context, '/1stimage'),
+                child: Text('자기소개'),
+              ),
+            ],
+          ),
+          ],
+        ),
+      ),
+    );
+  }
+}
