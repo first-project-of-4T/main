@@ -8,6 +8,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Main screen'),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
@@ -15,18 +16,44 @@ class Home extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, '/1st'),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                )
+              ),
               child: Text('Go to the 학현'),
               ),
-            ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, '/2nd'),
-              child: Text('Go to the 종익'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 30, 0, 30),
+              child: ElevatedButton(
+                onPressed: () => Navigator.pushNamed(context, '/2nd'),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                )
               ),
-            ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, '/3rd'),
-              child: Text('Go to the 권형'),
+                child: Text('Go to the 종익'),
+                ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 0, 0, 30),
+              child: ElevatedButton(
+                onPressed: () => Navigator.pushNamed(context, '/3rd'),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                )
               ),
+                child: Text('Go to the 권형'),
+                ),
+            ),
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, '/4th'),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)
+                )
+              ),
               child: Text('Go to the 감성'),
               ),
           ],
