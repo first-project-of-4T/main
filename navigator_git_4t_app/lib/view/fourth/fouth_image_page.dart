@@ -15,13 +15,13 @@ class FouthImagePage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
-          children: [Image.asset('imeges/chiken',
+          children: [Image.asset('images/chiken.jpg',
           width: 250,),
           Text("저는 무슨 사진을 올릴까 카메라를 보니 먹을것 사진이 많더라구요"),
-          Image.asset('imeges/sheeo',
+          Image.asset('images/sheep.jpg',
           width: 250,),
           Text("어제 밤에햇는데 사실 배고픈걸 참고만들엇습니다."),
-          Image.asset('imeges/cheese',
+          Image.asset('images/cheese.jpg',
           width: 250,),
           Text("다음에 근처에서 맛잇는걸 같이 먹으러 가실분 계시면 같이가요!"),
 
@@ -29,10 +29,10 @@ class FouthImagePage extends StatelessWidget {
                 Navigator.pop(context);
                 Navigator.pop(context);
                 },
-                 style: ElevatedButton.styleFrom(
+                style: ElevatedButton.styleFrom(
           backgroundColor: const Color.fromARGB(255, 85, 33, 33),
-                 ),
-                 child: Text("Main Screen")),
+                ),
+                child: Text("Main Screen")),
               ],
             )
         ),

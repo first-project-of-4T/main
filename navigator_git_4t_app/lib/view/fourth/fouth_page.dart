@@ -27,7 +27,7 @@ class FouthPage extends StatelessWidget {
                       backgroundColor: Colors.black,
                     ),
                     
-                   child: Text("이름 : 전감성 ",style: TextStyle(fontSize: 20),)),
+                  child: Text("이름 : 전감성 ",style: TextStyle(fontSize: 20),)),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.20),
@@ -37,7 +37,7 @@ class FouthPage extends StatelessWidget {
                       foregroundColor: Colors.white,
                       backgroundColor: Colors.black,
                     ),
-                   child: Text("1995년 05년 25일생")),
+                  child: Text("1995년 05년 25일생")),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.20),
@@ -47,7 +47,7 @@ class FouthPage extends StatelessWidget {
                       foregroundColor: Colors.white,
                       backgroundColor: const Color.fromARGB(255, 85, 33, 33),
                     ),
-                   child: Text("다음페이지")),
+                  child: Text("다음페이지")),
                 ),
               ]
             )
