@@ -1,6 +1,6 @@
 # navigator_git_4t_app
 
-A new Flutter project.
+간단한 자기소개 페이지 앱
 
 ## Getting Started
 
